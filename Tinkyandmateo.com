@@ -12,11 +12,20 @@
 
 ### Primary Records (Required)
 
-#### TXT Record (IPv4)
+#### A Record (IPv4)
 ```
 Host: @_github-pages-challenge-cawcreative
 Type: A
 Value: c2462f539b2440bd2479c2d157351f
+TTL: 3600
+Priority: N/A
+```
+
+#### A Record (IPv4)
+```
+Host: @Cawcreative
+Type: A
+Value: 66.249.73.204
 TTL: 3600
 Priority: N/A
 ```
